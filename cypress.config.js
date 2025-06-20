@@ -4,7 +4,6 @@ const baseUrl = 'https://google.com' // adjust to your localhost
 module.exports = defineConfig({
   viewportHeight: 2000,
   viewportWidth: 1200,
-  reporter: 'mochawesome',
   e2e: {
     baseUrl: baseUrl,
   },
