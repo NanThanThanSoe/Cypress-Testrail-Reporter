@@ -4,7 +4,7 @@ Report Cypress test results to Testrail
 
 # Steps to report the Cypress XML results to Testrail
 1. Run Cypress tests with reporter option \
-   e.g., npx cypress run --reporter junit --reporter-options "mochaFile=reports/TEST-[hash].xml" \
+   e.g., npx cypress run --reporter junit --reporter-options "mochaFile=reports/TEST-[hash].xml" 
 
    This will generate XML files under reports folder. If test adjusted, make sure to re-run the cypress test again so you get latest xml test result files.
 
