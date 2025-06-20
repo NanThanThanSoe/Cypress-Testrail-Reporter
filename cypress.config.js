@@ -7,7 +7,7 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: baseUrl,
   },
-  reporterOptions: {
-    configFile: "reporters.json"
-  },  
+  //reporterOptions: {
+    //configFile: "reporters.json"
+  //},  
 });
