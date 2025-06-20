@@ -11,11 +11,11 @@ Report Cypress test results to Testrail
    
 3. Upload the test results to Testrail 
 
-   trcli -y
-   -h http://yourtestrail.com
-   --project "your project name in testrail"
-   --project-id 4
-   --username hello@.com
-   --password mytestrailAPI  parse_junit --title "My Test Run"   -f "./reports/TEST*.xml" 
+   trcli -y \
+   -h http://yourtestrail.com \
+   --project "your project name in testrail" \
+   --project-id 4 \
+   --username hello@.com \
+   --password mytestrailAPI  parse_junit --title "My Test Run"   -f "./reports/TEST*.xml"  
 
    This will create report the xml test results in your Testrail.  More information, reference to Testrail documentation https://support.testrail.com/hc/en-us/articles/33017216938900-Best-Practices-Guide-TestRail-CLI#h_01JEZR8B7SVHCDC9APY7VGTW23
