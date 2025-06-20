@@ -1,0 +1,9 @@
+{
+    "testrail": {
+        "domain": "your testrail",
+        "username": "your email",
+        "password": "your testrail API key",
+        "projectId": "your project id in testrail e.g., 2", 
+        "runId": "your test run id in testrail e.g., R2" 
+    }
+}
