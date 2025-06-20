@@ -1,4 +1,4 @@
-# Cypress-Testrail-Reporter
+# Cypress-Testrail-Report-Integration
 Report Cypress test results to Testrail
 
 
