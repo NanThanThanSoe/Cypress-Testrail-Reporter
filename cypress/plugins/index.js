@@ -1,8 +1,8 @@
-const TestRailReporter = require('cypress-testrail');
+//const TestRailReporter = require('cypress-testrail');
 
-module.exports = (on, config) => {
+//module.exports = (on, config) => {
     // configure and register our reporter
-    new TestRailReporter(on, config).register();
+   // new TestRailReporter(on, config).register();
 
-    return config
-}
+    //return config
+//}
