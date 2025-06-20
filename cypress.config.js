@@ -6,11 +6,6 @@ module.exports = defineConfig({
   viewportWidth: 1200,
   reporter: 'mochawesome',
   e2e: {
-  
-    async setupNodeEvents(on, config) {
-      await require('cypress-testrail-simple/src/plugin')(on, config)
-    },
-
     baseUrl: baseUrl,
   },
   reporterOptions: {
